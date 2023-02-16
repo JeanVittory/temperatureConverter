@@ -1,0 +1,16 @@
+.result {
+	margin-top: 1.5rem;
+}
+
+.result__title {
+	color: #a5a4a4;
+	font-size: 12px;
+	font-weight: light;
+	margin: 0;
+}
+
+.result__temperature {
+	margin-top: 0.5rem;
+	color: rgb(9, 9, 9);
+	font-weight: bolder;
+}

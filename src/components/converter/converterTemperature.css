@@ -1,0 +1,52 @@
+.converter {
+	background-color: rgb(255, 255, 255);
+	padding: 2rem;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.form {
+	display: flex;
+	gap: 20px;
+}
+
+.container-degrees,
+.container-types {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	align-self: flex-end;
+}
+
+.form__degrees,
+.form__types,
+.form__button {
+	padding: 0.5rem;
+}
+
+.form__types {
+	display: flex;
+	justify-content: space-around;
+}
+
+.form__degrees,
+.form__types {
+	border: 1px #ccc solid;
+	height: 35px;
+}
+
+.form__degrees-label,
+.form__types-label {
+	color: #a5a4a4;
+	font-size: 12px;
+	font-weight: light;
+}
+
+button {
+	align-self: flex-end;
+	border: none;
+	height: 35px;
+	background-color: #0d6efd;
+	color: rgb(236, 233, 233);
+	font-weight: bold;
+}
